@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+var x = 5;
+if (x%2 == 0){
+document.getElementById("demo").innerHTML = (x +" is an even mumber!");}
+else
+{document.getElementById("demo").innerHTML = (x + " is as not an even number!");}
+
+
+</script>
+
+</body>
+</html>
+
